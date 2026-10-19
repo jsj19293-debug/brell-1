@@ -1,0 +1,11 @@
+{
+  "name": "brell-1",
+  "owner": { "name": "BRELL" },
+  "plugins": [
+    {
+      "name": "nai-prompt",
+      "source": "./plugins/nai-prompt",
+      "description": "NovelAI V4.5 Full 캐릭터 디자인·복장·구도 프롬프트 스킬"
+    }
+  ]
+}
