@@ -8,9 +8,9 @@
   },
   "plugins": [
     {
-      "name": "nai-prompt",
-      "source": "./plugins/nai-prompt",
-      "description": "NovelAI V4.5 Full 캐릭터 디자인·복장·구도 프롬프트 스킬"
+      "name": "brell",
+      "source": "./plugins/brell",
+      "description": "BRELL 캐릭터챗 작업 스킬 (`/NAI` NovelAI V4.5 이미지 프롬프트 포함)"
     }
   ]
 }

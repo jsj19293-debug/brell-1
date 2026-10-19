@@ -1,6 +1,0 @@
-{
-  "name": "nai-prompt",
-  "version": "0.1.0",
-  "description": "NovelAI Diffusion V4.5 Full 이미지 프롬프트 제작: 오리지널 캐릭터 디자인, 구체적 자연어, 상황별 복장(가중치 -3~3), 구도. 작가·퀄리티·그림체 태그와 기존 캐릭터 오마쥬는 거절하고, 배경은 기본 없음.",
-  "author": { "name": "BRELL" }
-}

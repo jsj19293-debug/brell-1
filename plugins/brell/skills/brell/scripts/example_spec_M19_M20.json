@@ -1,0 +1,389 @@
+{
+ "profiles_add": [
+  {
+   "code": "M19",
+   "name": "권해솔",
+   "image": "https://brell.uk/M19/91.webp",
+   "secrets": [
+    {
+     "image": "https://brell.uk/M19/93.webp",
+     "title": "계단 아래 레더팬츠",
+     "lewd": 1,
+     "line": "아래서 찍지 마. …찍었으면 보내 봐, 어떻게 나왔나"
+    },
+    {
+     "image": "https://brell.uk/M19/94.webp",
+     "title": "재킷 지퍼 열기",
+     "lewd": 3,
+     "line": "이런 거 처음 찍어 봄. 이상하면 말해. 지울 거니까"
+    },
+    {
+     "image": "https://brell.uk/M19/95.webp",
+     "title": "청바지 내린 뒤태",
+     "lewd": 3,
+     "line": "헬멧 벗기 전엔 아무도 몰라. 너만 알아"
+    }
+   ],
+   "hoverImage": ""
+  },
+  {
+   "code": "M20",
+   "name": "차미연",
+   "image": "https://brell.uk/M20/91.webp",
+   "secrets": [
+    {
+     "image": "https://brell.uk/M20/93.webp",
+     "title": "베개 위 흘러내린 끈",
+     "lewd": 1,
+     "line": "남편 옆에서 찍은 거예요. 어머, 쉿."
+    },
+    {
+     "image": "https://brell.uk/M20/94.webp",
+     "title": "주차장 차 안",
+     "lewd": 3,
+     "line": "약국 주차장이에요. 퇴근 기록 찍기 전에 한 장."
+    },
+    {
+     "image": "https://brell.uk/M20/95.webp",
+     "title": "침대 위 다리 벌리기",
+     "lewd": 4,
+     "line": "여보 오기 전에 빨리 봐. 지울 거야… 아마도."
+    }
+   ],
+   "hoverImage": ""
+  }
+ ],
+ "people_add": [
+  {
+   "code": "M19",
+   "name": "권해솔",
+   "age": 24,
+   "job": "퀵서비스 라이더",
+   "tier": "SILVER",
+   "glyph": "🏁",
+   "bg": "#1d3a52",
+   "w": [
+    8,
+    20
+   ],
+   "look": "하늘색 웨이브 단발에 파란 이너컬러 · 청안 · E컵 · 검은 라이더 재킷",
+   "tags": [
+    "무심한 쿨함",
+    "연애 숙맥 처녀",
+    "몸이 먼저 반응"
+   ],
+   "message": "처음이라 잘 모름. 근데 궁금하긴 해. 뭐부터 하는 건데",
+   "work": "배달 중. 신호 걸리면 볼게.",
+   "free": "콜 끝. 재킷 벗었어. 뭐 할 건데",
+   "late": "헬멧 벗고 누웠어. 아까 그 얘기… 더 해 봐. 그냥 궁금해서",
+   "tease": "손만 닿아도 움찔하는 거, 엔진 탓이라고 했잖아. …아니면 확인해 보든가. 처음이라 천천히",
+   "whisper": "뒷자리 비었어. 헬멧 하나 더 있는데, 탈래?",
+   "place": "월영시 해안도로 끝 전망대, 시동 끈 뒤",
+   "react": "저장했어? …뭐, 지우라고는 안 했어",
+   "weak": "오토바이 말고 나한테 관심 있다는 말. 대답이 한참 늦어져요",
+   "locks": [
+    "계단 아래 레더팬츠",
+    "재킷 지퍼 열기",
+    "청바지 내린 뒤태"
+   ]
+  },
+  {
+   "code": "M20",
+   "name": "차미연",
+   "age": 31,
+   "job": "약사",
+   "tier": "GOLD",
+   "glyph": "😷",
+   "bg": "#3a2652",
+   "w": [
+    9,
+    19
+   ],
+   "look": "보라 단발 올림머리 · 보라안 · I컵 · 흰 마스크와 눈 밑 점",
+   "tags": [
+    "수줍은 척 내숭",
+    "배덕감 중독",
+    "능청스러운 거짓말"
+   ],
+   "message": "어머, 저 유부녀예요… 그래서 더 좋은 거 아시죠? 남편 출근하면 연락할게요.",
+   "work": "조제 중이에요. 손님 빠지면 볼게요, 마스크 안에서 웃고 있어요.",
+   "free": "약국 닫았어요. 남편한테는 재고 정리한다고 했어요. 지금 어디예요?",
+   "late": "남편 자요. 옆방에서 보내는 거예요. 소리 내면 안 돼요… 그래서 더 젖어요.",
+   "tease": "남편 와이셔츠 다리면서 답장 쓰는 중이에요. 식후 삼십 분이 아니라, 퇴근 후 삼십 분이 제 처방이에요.",
+   "whisper": "방금 남편 전화 끊었어요. 오늘 늦는대요. …무슨 뜻인지 알죠?",
+   "place": "약국 뒤 주차장, 퇴근 기록 찍기 전",
+   "react": "어머, 저장했어요? 남편 폰에는 없는 사진인데.",
+   "weak": "들킬 뻔한 걸 같이 웃어 주는 사람. 그 자리에서 내숭이 벗겨져요",
+   "locks": [
+    "베개 위 흘러내린 끈",
+    "주차장 차 안",
+    "침대 위 다리 벌리기"
+   ]
+  }
+ ],
+ "buildings_add": [
+  {
+   "region": "station",
+   "after": "hospital",
+   "building": {
+    "id": "pharmacy",
+    "name": "월영 약국 💊",
+    "desc": "대학병원 앞 약국. 처방전 손님으로 하루 종일 붐벼요.",
+    "members": [
+     "M20"
+    ]
+   }
+  }
+ ],
+ "text_replace": [
+  {
+   "where": "meeting",
+   "old": "<dd id=\"factMembers\">18명</dd>",
+   "new": "<dd id=\"factMembers\">20명</dd>"
+  },
+  {
+   "where": "meeting",
+   "old": "// 회원 18명 (M01~M18).",
+   "new": "// 회원 20명 (M01~M20).",
+   "check": false
+  },
+  {
+   "where": "meeting",
+   "old": "18명 중 한 명을 뽑고",
+   "new": "20명 중 한 명을 뽑고",
+   "check": false
+  },
+  {
+   "where": "outer",
+   "old": "M17 민지수는 brell.uk/M17/의 91(프사)·93·94·95번을 씁니다.",
+   "new": "M17 민지수, M19 권해솔, M20 차미연은 brell.uk/M17·M19·M20/의 91(프사)·93·94·95번을 씁니다."
+  }
+ ],
+ "i18n_add": {
+  "권해솔": [
+   "Kwon Hae-sol",
+   "クォン・ヘソル",
+   "权海松"
+  ],
+  "퀵서비스 라이더": [
+   "Courier rider",
+   "バイク便ライダー",
+   "快递骑手"
+  ],
+  "하늘색 웨이브 단발에 파란 이너컬러 · 청안 · E컵 · 검은 라이더 재킷": [
+   "Wavy sky-blue bob with blue inner color · blue eyes · E-cup · black rider jacket",
+   "水色ウェーブボブに青のインナーカラー · 青い瞳 · Eカップ · 黒いライダージャケット",
+   "天蓝色波浪短发配蓝色内染 · 蓝眸 · E罩杯 · 黑色骑行夹克"
+  ],
+  "무심한 쿨함": [
+   "Nonchalantly cool",
+   "無関心なクールさ",
+   "漫不经心的酷"
+  ],
+  "연애 숙맥 처녀": [
+   "Romance-clueless virgin",
+   "恋愛オンチの処女",
+   "恋爱白痴处女"
+  ],
+  "몸이 먼저 반응": [
+   "Body reacts first",
+   "体が先に反応",
+   "身体先有反应"
+  ],
+  "처음이라 잘 모름. 근데 궁금하긴 해. 뭐부터 하는 건데": [
+   "First time, so I don’t really know. But I’m curious. What do you do first",
+   "初めてだからよくわかんない。でも気にはなる。何からするの",
+   "第一次，不太懂。不过挺好奇的。先从哪一步开始"
+  ],
+  "배달 중. 신호 걸리면 볼게.": [
+   "On a delivery. I’ll check when I hit a red light.",
+   "配達中。信号で止まったら見る。",
+   "送货中。等红灯的时候看。"
+  ],
+  "콜 끝. 재킷 벗었어. 뭐 할 건데": [
+   "Last call done. Jacket’s off. So what are we doing",
+   "コール終わり。ジャケット脱いだ。で、何すんの",
+   "单跑完了。夹克脱了。要干嘛"
+  ],
+  "헬멧 벗고 누웠어. 아까 그 얘기… 더 해 봐. 그냥 궁금해서": [
+   "Helmet off, lying down. That thing you said earlier… keep going. Just curious",
+   "ヘルメット脱いで横になった。さっきの話…もっとして。ただ気になるだけ",
+   "摘了头盔躺下了。刚才那个话题……再说说。只是好奇"
+  ],
+  "손만 닿아도 움찔하는 거, 엔진 탓이라고 했잖아. …아니면 확인해 보든가. 처음이라 천천히": [
+   "I said flinching when your hand touches me was the engine’s fault. …Or check for yourself. It’s my first time, so go slow",
+   "手が触れただけでビクッとするの、エンジンのせいって言ったじゃん。…じゃなきゃ確かめてみれば。初めてだからゆっくり",
+   "我说过一碰就发抖是发动机的错吧。……不然你自己确认看看。第一次，慢一点"
+  ],
+  "뒷자리 비었어. 헬멧 하나 더 있는데, 탈래?": [
+   "Back seat’s empty. I’ve got a spare helmet. Want a ride?",
+   "後ろ空いてる。ヘルメットもう一個あるけど、乗る？",
+   "后座空着。还有一个头盔，要上来吗？"
+  ],
+  "월영시 해안도로 끝 전망대, 시동 끈 뒤": [
+   "The lookout at the end of Wolyeong’s coastal road, after the engine’s off",
+   "月影市の海岸道路の突き当たりの展望台、エンジンを切ったあと",
+   "月影市海岸公路尽头的观景台，熄火之后"
+  ],
+  "저장했어? …뭐, 지우라고는 안 했어": [
+   "You saved it? …Well, I didn’t tell you to delete it",
+   "保存した？…まあ、消せとは言ってない",
+   "存了？……嘛，我也没让你删"
+  ],
+  "오토바이 말고 나한테 관심 있다는 말. 대답이 한참 늦어져요": [
+   "Being told you’re interested in her, not the bike. Her reply takes a long while",
+   "バイクじゃなくて自分に興味があるという言葉。返事がしばらく遅れます",
+   "说对她本人而不是摩托车感兴趣。她会好半天才回话"
+  ],
+  "계단 아래 레더팬츠": [
+   "Leather pants from below the stairs",
+   "階段の下からレザーパンツ",
+   "楼梯下的皮裤"
+  ],
+  "재킷 지퍼 열기": [
+   "Unzipping the jacket",
+   "ジャケットのジッパーを開けて",
+   "拉开夹克拉链"
+  ],
+  "청바지 내린 뒤태": [
+   "Back view, jeans pulled down",
+   "ジーンズを下ろした後ろ姿",
+   "褪下牛仔裤的背影"
+  ],
+  "아래서 찍지 마. …찍었으면 보내 봐, 어떻게 나왔나": [
+   "Don’t shoot from below. …If you did, send it. I wanna see how it came out",
+   "下から撮んな。…撮ったなら送って、どう写ったか",
+   "别从下面拍。……拍了就发给我，看看拍成啥样"
+  ],
+  "이런 거 처음 찍어 봄. 이상하면 말해. 지울 거니까": [
+   "First time taking something like this. Tell me if it’s weird. I’ll delete it",
+   "こういうの初めて撮った。変なら言って。消すから",
+   "第一次拍这种。奇怪就说。我会删的"
+  ],
+  "헬멧 벗기 전엔 아무도 몰라. 너만 알아": [
+   "Nobody knows until the helmet comes off. Only you do",
+   "ヘルメット脱ぐまで誰も知らない。知ってるのはお前だけ",
+   "摘下头盔前没人知道。只有你知道"
+  ],
+  "차미연": [
+   "Cha Mi-yeon",
+   "チャ・ミヨン",
+   "车美妍"
+  ],
+  "약사": [
+   "Pharmacist",
+   "薬剤師",
+   "药剂师"
+  ],
+  "보라 단발 올림머리 · 보라안 · I컵 · 흰 마스크와 눈 밑 점": [
+   "Purple bob pinned up · purple eyes · I-cup · white mask and a mole under the eye",
+   "紫のボブをアップ · 紫の瞳 · Iカップ · 白いマスクと目の下のほくろ",
+   "紫色短发盘起 · 紫眸 · I罩杯 · 白口罩与眼下痣"
+  ],
+  "수줍은 척 내숭": [
+   "Feigned shyness",
+   "恥ずかしがるフリのぶりっ子",
+   "假装害羞的装纯"
+  ],
+  "배덕감 중독": [
+   "Hooked on forbidden thrills",
+   "背徳感中毒",
+   "沉迷背德感"
+  ],
+  "능청스러운 거짓말": [
+   "Smooth, shameless lies",
+   "しれっとした嘘",
+   "若无其事的谎言"
+  ],
+  "어머, 저 유부녀예요… 그래서 더 좋은 거 아시죠? 남편 출근하면 연락할게요.": [
+   "Oh my, I’m married… that’s what makes it better, you know? I’ll text you once my husband leaves for work.",
+   "あら、私人妻ですよ…だからもっといいの、わかりますよね？夫が出勤したら連絡しますね。",
+   "哎呀，我是有夫之妇哦……所以才更好，您懂的吧？等老公上班了我再联系您。"
+  ],
+  "조제 중이에요. 손님 빠지면 볼게요, 마스크 안에서 웃고 있어요.": [
+   "Filling prescriptions. I’ll look once it’s quiet. I’m smiling under my mask.",
+   "調剤中です。お客さんが引いたら見ますね、マスクの中で笑ってます。",
+   "正在配药。等客人少了再看，我在口罩里笑着呢。"
+  ],
+  "약국 닫았어요. 남편한테는 재고 정리한다고 했어요. 지금 어디예요?": [
+   "Pharmacy’s closed. I told my husband I’m doing inventory. Where are you now?",
+   "薬局閉めました。夫には在庫整理だって言ってあります。今どこですか？",
+   "药店关门了。跟老公说在盘点库存。您现在在哪？"
+  ],
+  "남편 자요. 옆방에서 보내는 거예요. 소리 내면 안 돼요… 그래서 더 젖어요.": [
+   "My husband’s asleep. I’m texting from the next room. I can’t make a sound… that’s why I’m getting wetter.",
+   "夫は寝てます。隣の部屋から送ってるんです。声出しちゃダメ…だからもっと濡れちゃう。",
+   "老公睡了。我在隔壁房间发的。不能出声……所以更湿了。"
+  ],
+  "남편 와이셔츠 다리면서 답장 쓰는 중이에요. 식후 삼십 분이 아니라, 퇴근 후 삼십 분이 제 처방이에요.": [
+   "I’m ironing my husband’s shirt while I write this. Not thirty minutes after meals—thirty minutes after work is my prescription.",
+   "夫のワイシャツにアイロンをかけながら返信してます。食後三十分じゃなくて、退勤後三十分が私の処方です。",
+   "一边给老公熨衬衫一边回消息。不是饭后三十分钟，下班后三十分钟才是我的处方。"
+  ],
+  "방금 남편 전화 끊었어요. 오늘 늦는대요. …무슨 뜻인지 알죠?": [
+   "Just hung up with my husband. He says he’ll be late tonight. …You know what that means, right?",
+   "今、夫の電話を切りました。今日は遅くなるって。…どういう意味かわかりますよね？",
+   "刚挂了老公的电话。他说今天会晚回。……您懂什么意思吧？"
+  ],
+  "약국 뒤 주차장, 퇴근 기록 찍기 전": [
+   "The parking lot behind the pharmacy, before clocking out",
+   "薬局裏の駐車場、退勤を打刻する前",
+   "药店后面的停车场，下班打卡之前"
+  ],
+  "어머, 저장했어요? 남편 폰에는 없는 사진인데.": [
+   "Oh my, you saved it? That one’s not even on my husband’s phone.",
+   "あら、保存したんですか？夫のスマホにもない写真なのに。",
+   "哎呀，您存了？这张连老公手机里都没有呢。"
+  ],
+  "들킬 뻔한 걸 같이 웃어 주는 사람. 그 자리에서 내숭이 벗겨져요": [
+   "Someone who laughs with her about almost getting caught. Her act drops on the spot",
+   "バレかけたことを一緒に笑ってくれる人。その場でぶりっ子が剥がれます",
+   "能陪她一起笑谈差点被发现的人。她的装纯当场就会卸下"
+  ],
+  "베개 위 흘러내린 끈": [
+   "Strap slipping off on the pillow",
+   "枕の上でずり落ちた肩紐",
+   "枕头上滑落的肩带"
+  ],
+  "주차장 차 안": [
+   "Inside the car in the parking lot",
+   "駐車場の車の中",
+   "停车场的车里"
+  ],
+  "침대 위 다리 벌리기": [
+   "Legs spread on the bed",
+   "ベッドの上で脚を開いて",
+   "床上张开双腿"
+  ],
+  "남편 옆에서 찍은 거예요. 어머, 쉿.": [
+   "Took this right next to my husband. Oh my, shh.",
+   "夫の隣で撮ったんです。あら、しーっ。",
+   "在老公旁边拍的。哎呀，嘘。"
+  ],
+  "약국 주차장이에요. 퇴근 기록 찍기 전에 한 장.": [
+   "Pharmacy parking lot. One shot before I clock out.",
+   "薬局の駐車場です。退勤打刻の前に一枚。",
+   "药店停车场。下班打卡前来一张。"
+  ],
+  "여보 오기 전에 빨리 봐. 지울 거야… 아마도.": [
+   "Look quick before hubby gets home. I’ll delete it… probably.",
+   "旦那が帰る前に早く見て。消すから…たぶん。",
+   "老公回来前快看。我会删的……大概吧。"
+  ],
+  "월영 약국 💊": [
+   "Wolyeong Pharmacy 💊",
+   "月影薬局 💊",
+   "月影药店 💊"
+  ],
+  "대학병원 앞 약국. 처방전 손님으로 하루 종일 붐벼요.": [
+   "The pharmacy in front of the university hospital. Busy all day with prescription customers.",
+   "大学病院前の薬局。処方箋のお客さんで一日中混んでいます。",
+   "大学医院前的药店。整天挤满拿处方的客人。"
+  ],
+  "20명": [
+   "20",
+   "20名",
+   "20人"
+  ]
+ }
+}

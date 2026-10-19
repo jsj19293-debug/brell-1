@@ -1,0 +1,61 @@
+{
+ "text_replace": [
+  {
+   "where": "meeting",
+   "old": "<div class=\"kw\"><code>더 보여 줘</code><code>통화를 끊는다</code></div></div></article>",
+   "new": "<div class=\"kw\"><code>더 보여 줘</code><code>통화를 끊는다</code></div></div></article>\n<article class=\"screen\"><img src=\"https://mannam6.jsj19297.workers.dev/?title=달빛모텔%203층%20벽%20진짜%20종이임&h=썰&body=어제%20대실%20잡았는데%20옆방%20소리%20실황중계%20수준%0A헤드%20박는%20소리에%20숨넘어가는%20신음까지%20다%20들림ㅋㅋ%0A프런트%20사장님은%20아무것도%20못%20들은%20얼굴%0A3줄요약:%20벽%20얇음,%20옆방%20존나%20셈,%20나도%20셈&up=128&dn=3&r1=ㄹㅇ%20거기%20벽%20종이임&r2=주작%20냄새%20나는데%20인증%20ㄱ&r3=3층%20말고%205층%20가라%20거긴%20좀%20나음&r4=삭제&t1=월영%20짐%20사우나%20문%20아직도%20고장임&h1=정보&c1=24&t2=필라테스%20개인레슨%20후기%20%28스압%29&h2=후기&c2=57\" alt=\"월영 소식통 갤러리 화면\" loading=\"lazy\"><div class=\"sc-body\"><h3>📰 월영 소식통 갤러리</h3><p>월영시 익명 커뮤니티 ‘월영 소식통’의 만남어플갤이에요. 갤러리를 열면 새 글 하나가 본문·추천·댓글까지 펼쳐지고, 다른 새 글 두 개가 목록에 떠요.</p><p>목록 속 제목을 말하면 그 글이 열리고, 모텔·사우나·필라테스처럼 장소 이름을 대면 지난 글을 다시 찾아 줘요. 회원이 직접 올린 인증 글엔 사진이 한 장 붙기도 해요. 갤러리 화면이 뜬 턴엔 서술이 짧아져요.</p><div class=\"kw\"><code>갤러리를 연다</code><code>월영 갤 구경</code><code>두 번째 글 클릭</code><code>모텔 썰 찾아 줘</code></div></div></article>"
+  },
+  {
+   "where": "meeting",
+   "old": "명령어를 외울 필요 없어요. 앱을 켜고, 고르고, 말을 걸면 화면이 따라옵니다. 아래 네 장이 실제 플레이 중에 뜨는 비밀만남 화면이에요.",
+   "new": "명령어를 외울 필요 없어요. 앱을 켜고, 고르고, 말을 걸면 화면이 따라옵니다. 아래 다섯 장이 실제 플레이 중에 뜨는 비밀만남 화면이에요."
+  }
+ ],
+ "i18n_add": {
+  "명령어를 외울 필요 없어요. 앱을 켜고, 고르고, 말을 걸면 화면이 따라옵니다. 아래 다섯 장이 실제 플레이 중에 뜨는 비밀만남 화면이에요.": [
+   "No need to memorize commands. Open the app, choose, start talking, and the screens follow. The five cards below are actual Secret Meeting screens that appear during play.",
+   "コマンドを覚える必要はありません。アプリを開いて、選んで、話しかければ画面がついてきます。下の5枚は実際のプレイ中に表示されるヒミツの出会いの画面です。",
+   "不用记指令。打开App、选择、搭话，画面就会跟着出现。下面五张是实际游玩中会出现的秘密约会画面。"
+  ],
+  "월영 소식통 갤러리 화면": [
+   "Wolyeong Grapevine gallery screen",
+   "月影ウワサ通 掲示板画面",
+   "月影消息通 论坛画面"
+  ],
+  "📰 월영 소식통 갤러리": [
+   "📰 Wolyeong Grapevine gallery",
+   "📰 月影ウワサ通 掲示板",
+   "📰 月影消息通 论坛"
+  ],
+  "월영시 익명 커뮤니티 ‘월영 소식통’의 만남어플갤이에요. 갤러리를 열면 새 글 하나가 본문·추천·댓글까지 펼쳐지고, 다른 새 글 두 개가 목록에 떠요.": [
+   "The dating-app board on ‘Wolyeong Grapevine,’ Wolyeong City’s anonymous community. Open the gallery and one new post unfolds with its body, votes and comments, while two more new posts show up in the list.",
+   "月影市の匿名コミュニティ「月影ウワサ通」のマッチングアプリ板です。掲示板を開くと新しい投稿が1件、本文・推薦・コメントまで展開され、ほかの新着2件が一覧に表示されます。",
+   "这是月影市匿名社区‘月影消息通’的约会App板块。打开论坛后，一篇新帖会连同正文、点赞和评论一起展开，另外两篇新帖显示在列表里。"
+  ],
+  "목록 속 제목을 말하면 그 글이 열리고, 모텔·사우나·필라테스처럼 장소 이름을 대면 지난 글을 다시 찾아 줘요. 회원이 직접 올린 인증 글엔 사진이 한 장 붙기도 해요. 갤러리 화면이 뜬 턴엔 서술이 짧아져요.": [
+   "Name a title from the list and that post opens; mention a place like the motel, sauna or Pilates studio and it digs up older posts. Proof posts uploaded by members themselves sometimes come with a photo. On turns when the gallery is shown, the narration gets shorter.",
+   "一覧のタイトルを言うとその投稿が開き、モーテル・サウナ・ピラティスのように場所の名前を言うと過去の投稿を探してくれます。会員本人が上げた証拠投稿には写真が1枚付くこともあります。掲示板画面が出たターンは地の文が短くなります。",
+   "说出列表里的标题就会打开那篇帖子；说出汽车旅馆、桑拿、普拉提这类地点名称，就会帮你找回以前的帖子。会员本人发的认证帖有时会附一张照片。论坛画面出现的回合，叙述会变短。"
+  ],
+  "갤러리를 연다": [
+   "opens the gallery",
+   "掲示板を開く",
+   "打开论坛"
+  ],
+  "월영 갤 구경": [
+   "browse the Wolyeong board",
+   "月影板をのぞく",
+   "逛月影论坛"
+  ],
+  "두 번째 글 클릭": [
+   "click the second post",
+   "2番目の投稿をクリック",
+   "点开第二篇帖子"
+  ],
+  "모텔 썰 찾아 줘": [
+   "find the motel stories",
+   "モーテルの話を探して",
+   "帮我找汽车旅馆的帖子"
+  ]
+ }
+}

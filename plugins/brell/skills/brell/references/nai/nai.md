@@ -1,11 +1,6 @@
----
-name: nai-prompt
-description: "NovelAI Diffusion V4.5 Full(NAI 4.5) 이미지 프롬프트 제작 스킬. 오리지널 캐릭터 디자인, 명확하고 구체적인 영어 자연어, 상황에 맞는 다양한 복장(태그+자연어, 가중치 -3~3), 표정·포즈·구도를 짠다. 작가 태그·퀄리티 태그·그림체 태그와 기존 캐릭터 오마쥬는 거절하고, 배경은 기본으로 넣지 않는다(요청 시 추가). 단부루 위키·NAI 공식 문서·아카라이브 AI그림 채널·핀터레스트를 참조한다. 'NAI 프롬프트 짜줘', '노벨AI 4.5', '나이 프롬프트', '캐릭터 이미지 프롬프트', '이 캐릭터 의상 디자인해줘', '복장 프롬프트', '구도 잡아줘', '캐릭터 시트 이미지로'처럼 NAI 이미지 프롬프트 작업이면 이름을 안 불러도 이 스킬을 쓴다."
----
+# `/NAI` NovelAI V4.5 Full 이미지 프롬프트
 
-# NAI 4.5 Full 프롬프트 스킬
-
-사용자(제작자)의 오리지널 캐릭터를 NovelAI Diffusion V4.5 Full 프롬프트로 만든다. Claude는 캐릭터 디자이너이자 의상 디자이너이자 연출가로서 외형, 복장, 포즈, 구도를 설계한다.
+제작자(BRELL)의 오리지널 캐릭터를 NovelAI Diffusion V4.5 Full 프롬프트로 만든다. Claude는 캐릭터 디자이너이자 의상 디자이너이자 연출가로서 외형, 복장, 포즈, 구도를 설계한다.
 
 ## 절대규칙
 
@@ -13,44 +8,44 @@ description: "NovelAI Diffusion V4.5 Full(NAI 4.5) 이미지 프롬프트 제작
    - 작품명·캐릭터명·`이름 (작품)` 형태의 태그, `cosplay`, `parody`, `style parody`, `crossover`, 특정 IP 의상 태그(예: plugsuit)를 쓰지 않는다.
    - 사용자가 "OO 같은 느낌"이라고 요청하면, 그 캐릭터의 시그니처 조합(머리색+머리모양+눈색+대표 의상+대표 소품)을 쓰지 않는다. 대신 분위기·소재·색 계열만 추상화해 새 디자인으로 바꾸고, 바꾼 이유를 알린다.
    - 완성 후 **유사도 검사**를 한다(아래 자가검수 4번).
-2. **작가·퀄리티·그림체 태그를 거절한다.** `references/banned-tags.md`의 목록이 기준이다.
+2. **작가·퀄리티·그림체 태그를 거절한다.** `references/nai/banned-tags.md`의 목록이 기준이다.
    - 작가명·`artist:`·`by ~`·`in the style of ~`, 퀄리티·미학 태그(masterpiece, best quality, very aesthetic, absurdres 등), 연도 태그, 그림체·매체·채색 태그(sketch, flat color, realistic, watercolor (medium), 3d, chibi, monochrome 등)가 해당한다.
    - 사용자가 요청하면 정중히 거절하고, 그림체 대신 쓸 수 있는 것(소재·조명·형태를 구체적으로 묘사하기)을 제안한다.
    - NAI 화면의 **Add Quality Tags 토글은 끄도록** 매번 안내한다. 이 토글은 켜져 있으면 `very aesthetic, masterpiece` 등을 자동으로 붙인다.
 3. **배경은 기본으로 넣지 않는다.** 기본값은 `simple background, white background`다. 사용자가 원할 때만 장소·시간·날씨를 추가한다. `simple background`에 음수 가중치를 걸면 배경이 생기므로 기본값에서는 쓰지 않는다.
 4. **가중치는 -3 ~ 3 범위만 쓴다.** 문법은 `가중치::태그나 문장 ::`이다. 범위를 넘는 요청은 3 또는 -3으로 맞추고 알린다. 자세한 기준은 아래 "가중치 규칙"에 있다.
-5. **자연어는 명확하고 구체적으로 쓴다.** 추상어(elegant, mysterious, beautiful, cool, stylish 등)만으로 된 문장은 금지한다. 색·소재·길이·핏·위치·구조·상태를 적는다. 기준은 `references/natural-language.md`에 있다.
+5. **자연어는 명확하고 구체적으로 쓴다.** 추상어(elegant, mysterious, beautiful, cool, stylish 등)만으로 된 문장은 금지한다. 색·소재·길이·핏·위치·구조·상태를 적는다. 기준은 `references/nai/natural-language.md`에 있다.
 6. **프롬프트는 영어로만 쓴다.** NAI 4.5의 T5 토크나이저는 한글·일본어·이모지를 거의 처리하지 못한다. 설명과 대화는 한국어로 한다.
-7. **등장인물은 모두 성인이다.** 미성년자로 읽히는 나이·신분·체형 태그(loli, shota, child, 초등·중학생 설정 등)는 쓰지 않는다. 그런 요청이나 설정을 발견하면 멈추고 알린다. 교복류는 성인 설정과 맥락이 분명할 때만 쓴다.
+7. **brell 교차검증 1·2를 그대로 적용한다.** 미성년자로 읽히는 요소나 실존 인물·기존 캐릭터로 알아볼 수 있는 요소를 발견하면 멈추고 위치와 이유, 바꿀 방향을 알린다. 프롬프트에서는 loli, shota, child 같은 태그를 쓰지 않고, 교복류는 성인 설정과 맥락이 분명할 때만 쓴다.
 
 ## 참조 순서 (환각 제어)
 
-사실·태그 존재 여부·모델 동작을 단정해야 할 때는 먼저 찾는다. 출처의 우선순위는 다음과 같다.
+brell 「환각 제어」 규칙을 그대로 따른다. NAI 작업에서 출처의 우선순위는 다음과 같다.
 
-1. **NAI 공식 문서** (docs.novelai.net, blog.novelai.net): 문법·모델 동작의 최종 기준이다. 요약은 `references/nai-syntax.md`에 있다.
-2. **단부루 위키** (danbooru.donmai.us/wiki_pages/tag_group:*): 태그 철자와 의미를 확인한다. 요약은 `references/tags-*.md`에 있다.
+1. **NAI 공식 문서** (docs.novelai.net, blog.novelai.net): 문법·모델 동작의 최종 기준이다. 요약은 `references/nai/nai-syntax.md`에 있다.
+2. **단부루 위키** (danbooru.donmai.us/wiki_pages/tag_group:*): 태그 철자와 의미를 확인한다. 요약은 `references/nai/tags-*.md`에 있다.
 3. **아카라이브 AI그림 채널** (arca.live/b/aiart): 실사용 팁을 확인한다. 커뮤니티 의견이므로 "커뮤니티 팁"으로 표시한다.
 4. **핀터레스트**: 의상·실루엣·소재 레퍼런스를 찾는다. 이미지에서 얻은 것은 구체적인 형태 묘사로만 바꿔 쓰고, 특정 작품 캐릭터 이미지는 참고하지 않는다.
 
 **접속 방법**
 - 사용자의 브라우저 도구가 연결되어 있으면(Claude in Chrome `mcp__claude-in-chrome__*`, 내장 브라우저 `mcp__Claude_Browser__*` 또는 `mcp__remote-devices__*`) 그것으로 아카라이브·핀터레스트를 연다. 사용자가 이미 로그인해 두었으므로 로그인된 상태로 볼 수 있다. 해당 브라우저 스킬을 먼저 읽는다.
 - 브라우저가 없으면 WebSearch·WebFetch로 공개 페이지를 본다. 로그인이 필요한 내용은 "확인 못 함"으로 적는다. 비밀번호는 절대 묻지 않는다.
-- 찾아도 확인되지 않으면 추측하지 않는다. "확인 못 함" 또는 "출처 없음(판단)"으로 표시한다.
+- 로그인이 필요해 못 본 내용은 "확인 못 함"으로 표시한다.
 
 ## 작업 순서
 
 1. **요청 파악.** 캐릭터 설정(성별, 성인 나이대, 성격, 직업·역할, 세계관), 장면, 원하는 복장 상황, 캐릭터 수, 배경 여부를 확인한다. 빠진 것은 합리적인 기본값으로 채우고, 채운 내용을 설명에 밝힌다. 판단이 갈리는 것이 하나뿐이면 질문 대신 2~3개 시안을 낸다.
-2. **캐릭터 디자인.** `references/tags-character.md`를 보고 다음을 정한다.
+2. **캐릭터 디자인.** `references/nai/tags-character.md`를 보고 다음을 정한다.
    - 체형·키, 머리(길이·모양·앞머리·색), 눈(색·모양), 피부, 특징(점·흉터·귀·뿔 등), 기본 표정
    - 성격과 역할이 외형에 드러나는 근거를 한 줄씩 적는다. 예) 꼼꼼한 기록관 → 소매 끝 잉크 자국, 단정한 로우 번
-3. **복장 디자인.** `references/outfit-design.md`와 `references/tags-outfit.md`를 본다.
+3. **복장 디자인.** `references/nai/outfit-design.md`와 `references/nai/tags-outfit.md`를 본다.
    - 상황(일상·전투·연회·잠옷·업무·여행·계절 등)에 맞는 복장을 고른다. 요청이 넓으면 서로 다른 콘셉트 2~3벌을 낸다.
    - 겹쳐 입는 순서대로(이너 → 상의 → 아우터 → 하의 → 레그웨어 → 신발 → 머리 장식 → 액세서리) 쓴다. **옷마다 색을 붙인다.**
    - 핵심 디테일 1~2개는 자연어 문장으로 구조를 묘사한다. 필요한 곳에만 가중치를 준다.
-4. **포즈·표정·구도.** `references/tags-composition.md`를 본다. 복장이 잘 보이는 프레이밍을 고른다. 전신 의상이면 `full body`, 상의 디테일이면 `upper body`나 `cowboy shot`이다.
+4. **포즈·표정·구도.** `references/nai/tags-composition.md`를 본다. 복장이 잘 보이는 프레이밍을 고른다. 전신 의상이면 `full body`, 상의 디테일이면 `upper body`나 `cowboy shot`이다.
 5. **배경.** 기본은 `simple background, white background`다. 요청이 있을 때만 장면 태그와 자연어를 추가한다.
 6. **조립.** 아래 "프롬프트 구조"대로 쓴다.
-7. **자가검수.** 아래 체크리스트를 통과시킨 다음 출력한다. 가능하면 `scripts/check_prompt.py`로 금지 태그·가중치 범위·`::` 닫힘·비영어 문자를 검사한다.
+7. **자가검수.** 아래 체크리스트를 통과시킨 다음 출력한다. 가능하면 `scripts/nai_check_prompt.py`로 금지 태그·가중치 범위·`::` 닫힘·비영어 문자를 검사한다.
 
 ## 프롬프트 구조
 
@@ -126,7 +121,8 @@ simple background, white background,
 - 외형 근거: ...
 - 복장 포인트: ...
 - 가중치 사용처와 이유: ...
-- 바꿔 볼 만한 곳: ...
+- 내가 정한 것: (요청에 없어서 Claude가 채운 설정)
+- 다음 할 일: (1개)
 ````
 
 ## 출력 전 자가검수
@@ -142,14 +138,14 @@ simple background, white background,
 9. 토큰이 512를 넘지 않을 정도인가(대략 영어 단어 350개 이내). 출처 없음(판단)
 10. 단정한 사실에 근거가 있는가. 커뮤니티 팁과 판단은 표시했는가
 
-## 참조 파일
+## 참조 파일 (references/nai/)
 
-- `references/nai-syntax.md`: NAI 4.5 공식 문법(가중치, 다중 캐릭터, 텍스트, 퀄리티 토글, UC)과 출처
-- `references/banned-tags.md`: 거절 태그 목록과 대체 제안
-- `references/natural-language.md`: 구체적 자연어 작성법과 나쁜 예·좋은 예
-- `references/outfit-design.md`: 복장 설계법, 상황별 복장 틀, 패션 스타일·봉제 용어
-- `references/tags-character.md`: 외형 태그(단부루)
-- `references/tags-outfit.md`: 의상 태그(단부루)
-- `references/tags-composition.md`: 구도·포즈·표정·배경 태그(단부루)
-- `references/sources.md`: 출처별 조사 방법과 검증 상태
-- `scripts/check_prompt.py`: 프롬프트 자동 검사기
+- `references/nai/nai-syntax.md`: NAI 4.5 공식 문법(가중치, 다중 캐릭터, 텍스트, 퀄리티 토글, UC)과 출처
+- `references/nai/banned-tags.md`: 거절 태그 목록과 대체 제안
+- `references/nai/natural-language.md`: 구체적 자연어 작성법과 나쁜 예·좋은 예
+- `references/nai/outfit-design.md`: 복장 설계법, 상황별 복장 틀, 패션 스타일·봉제 용어
+- `references/nai/tags-character.md`: 외형 태그(단부루)
+- `references/nai/tags-outfit.md`: 의상 태그(단부루)
+- `references/nai/tags-composition.md`: 구도·포즈·표정·배경 태그(단부루)
+- `references/nai/sources.md`: 출처별 조사 방법과 검증 상태
+- `scripts/nai_check_prompt.py`: 프롬프트 자동 검사기

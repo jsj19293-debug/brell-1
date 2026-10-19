@@ -12,7 +12,7 @@
 **브라우저 도구 이름**: `mcp__claude-in-chrome__*`(Claude in Chrome), `mcp__Claude_Browser__*` 또는 `mcp__remote-devices__Claude_Browser__*`(내장 브라우저). 쓰기 전에 해당 브라우저 스킬을 읽는다. 사용자 비밀번호는 묻지 않는다.
 
 **아카라이브 검색어 예**: "NAI 4.5 자연어", "노벨AI 4.5 가중치 음수", "4.5 의상 색 번짐", "4.5f 캐릭터 프롬프트", "흰배경 고정"
-**핀터레스트 검색어 예**: references/outfit-design.md 7항 참조
+**핀터레스트 검색어 예**: references/nai/outfit-design.md 7항 참조
 
 ## 표시 규칙
 - 공식 문서: 링크만 붙인다.
