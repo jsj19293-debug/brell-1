@@ -1,6 +1,11 @@
 {
   "name": "brell-1",
-  "owner": { "name": "BRELL" },
+  "owner": {
+    "name": "BRELL"
+  },
+  "metadata": {
+    "description": "BRELL 제작용 Claude Code 플러그인 모음"
+  },
   "plugins": [
     {
       "name": "nai-prompt",
